@@ -19,4 +19,4 @@ ADD phpWebsite /var/www/html
 EXPOSE 80
 
 #Start Apache service
-CMD ["/usr/sbin/apache2ctl", "-D", "BACKGROUND"]
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
